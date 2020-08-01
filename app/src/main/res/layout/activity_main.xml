@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/ButtonCalculator"
+        android:layout_marginBottom="8dp"
+        android:text="7"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/ButtonCalculator"
+        android:text="8"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/textView15"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@style/ButtonCalculator"
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="@+id/textView16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView18"
+        style="@style/ButtonCalculator"
+        android:text="/"
+        app:layout_constraintBottom_toBottomOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="@+id/textView28"
+        app:layout_constraintStart_toStartOf="@+id/textView28"
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView19"
+        style="@style/ButtonCalculator"
+        android:layout_marginBottom="8dp"
+        android:text="4"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView20"
+        style="@style/ButtonCalculator"
+        android:layout_marginBottom="8dp"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+
+        app:layout_constraintEnd_toEndOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView21"
+        style="@style/ButtonCalculator"
+        android:text="00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView22"
+        style="@style/ButtonCalculator"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="@+id/textView19"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView23"
+        style="@style/ButtonCalculator"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView24"
+        style="@style/ButtonCalculator"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="@+id/textView23"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        style="@style/ButtonCalculator"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView26"
+        style="@style/ButtonCalculator"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/textView23"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
+        app:layout_constraintTop_toTopOf="@+id/textView23"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView27"
+        style="@style/ButtonCalculator"
+        android:text="00"
+        app:layout_constraintBottom_toBottomOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toTopOf="@+id/textView24"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView28"
+        style="@style/ButtonCalculator"
+        android:text="x"
+        app:layout_constraintBottom_toBottomOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="@+id/textView29"
+        app:layout_constraintTop_toTopOf="@+id/textView25"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/ButtonCalculator"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="@+id/textView26"
+        app:layout_constraintEnd_toEndOf="@+id/textView30"
+        app:layout_constraintStart_toStartOf="@+id/textView30"
+        app:layout_constraintTop_toTopOf="@+id/textView26"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/ButtonCalculator"
+        android:text="+"
+        app:layout_constraintBottom_toBottomOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/textView27"
+        app:layout_constraintWidth_percent="0.23" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:text="0"
+        android:gravity="bottom|end"
+        android:padding="16dp"
+        android:textSize="48sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
